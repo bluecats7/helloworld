@@ -1,0 +1,6 @@
+<!--pages/about/about.wxml-->
+<text class="title">hello world</text>
+<button size="mini">按钮</button>
+<view wx:for="{{student}}" wx:key="{{index}}">{{item.name}}---{{item.age}}</view>
+<view>{{counter}}</view>
+<button bindtap="onClickHander" size="mini">+</button>
