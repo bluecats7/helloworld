@@ -4,3 +4,8 @@
 <view wx:for="{{student}}" wx:key="{{index}}">{{item.name}}---{{item.age}}</view>
 <view>{{counter}}</view>
 <button bindtap="onClickHander" size="mini">+</button>
+<button 
+size="mini"
+open-type="getUserInfo"
+bindgetuserinfo="handerGetUserinfo"
+>获取授权</button>
