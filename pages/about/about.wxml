@@ -7,5 +7,11 @@
 <button 
 size="mini"
 open-type="getUserInfo"
-bindgetuserinfo="handerGetUserinfo"
+bindgetuserinfo="handerGetUserinf"
 >获取授权</button>
+
+<text selectable>hello world\n</text>
+<text space="ensp">hello world\n</text>
+<text space="emsp">hello world\n</text>
+<text space="nbsp">hello world\n</text>
+<text decode>6 &gt; 4</text>

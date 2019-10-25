@@ -1,0 +1,8 @@
+<!--pages/input/input.wxml-->
+<text>pages/input/input.wxml</text>
+<input class="input" value="666"></input>
+<!-- 决定键盘的输入类型 number idcard text digit-->
+<!-- -->
+<input type="number" password></input>
+<input placeholder="请输入内容"></input>
+<input bindinput="handleInput" bindblur="handleBlur" bindfocus="handleFocus"/>

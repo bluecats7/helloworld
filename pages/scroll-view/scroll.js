@@ -1,29 +1,16 @@
-// pages/about/about.js
+// pages/scroll-view/scroll.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    name:"lisi",
-    student:[
-      {name:"wangwu",age:"12"},
-      { name: "lisi", age: "13" },
-      { name: "zhangsan", age: "22" },
-    ],
-    counter:0
+
   },
-      onClickHander(){
-        this.setData({
-          counter:this.data.counter+1
-        })
-      },
+
   /**
    * 生命周期函数--监听页面加载
    */
-  handerGetUserinf(event){
-      console.log(event)
-  },
   onLoad: function (options) {
 
   },
@@ -75,5 +62,8 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  bindScroll(event){
+      console.log(event.detail.scrollTop)
   }
 })

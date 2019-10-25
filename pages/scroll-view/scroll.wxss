@@ -1,0 +1,23 @@
+/* pages/scroll-view/scroll.wxss */
+.content{
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background: orange;
+  margin:10px 10px;
+  display: inline-block; 
+}
+.box{
+  white-space: nowrap;
+background: yellow;
+}
+.item1{
+height: 500px;
+margin-top:30px; 
+background: purple;
+}
+.box2 {
+  height: 200px;
+  background: orange;
+  margin:10px;
+}
