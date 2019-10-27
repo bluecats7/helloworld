@@ -1,6 +1,6 @@
 <!--pages/view/view.wxml-->
 <text>pages/view/view.wxml</text>
-<view hover-class="box-hover" class="box2">
+<view hover-class="box3" class="box2">
   <view hover-class="hover-view" class="box" hover-stay-time="{{0}}"  hover-stop-propagation="true">
     view组件
   </view>

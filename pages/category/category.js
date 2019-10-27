@@ -5,16 +5,37 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    age:12,
+    nowTime:"",
+    isActive:false,
+    isShow:true,
+    score:50,
+    list:[[13,51,86,19],[45,97,43]]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+      setInterval(()=>{
+        this.setData({
+          nowTime: new Date().toLocaleString()
+        })
+      },1000)
+  },
+  handleSwitchColor(){
+      this.setData({
+        isActive: !this.data.isActive,
+        isShow: !this.data.isShow
+      })
 
   },
+  changeScore(){
+    this.setData({
+      score: this.data.score + 10
+    })
 
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

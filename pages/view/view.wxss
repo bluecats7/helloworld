@@ -8,7 +8,7 @@
   background: orange;
   font-size: 30px;
 }
-.box-hover {
+.box3 {
   background: green;
 }
 .box2{

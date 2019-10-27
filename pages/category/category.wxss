@@ -1,1 +1,8 @@
 /* pages/category/category.wxss */
+.box{
+  font-size: 13px;
+}
+.active{
+color: red;
+
+}
