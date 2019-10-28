@@ -1,5 +1,6 @@
 <!--pages/about/about.wxml-->
 <text class="title">hello world</text>
+<my-cpn/>
 <button size="mini">按钮</button>
 <view wx:for="{{student}}" wx:key="{{index}}">{{item.name}}---{{item.age}}</view>
 <view>{{counter}}</view>
@@ -10,7 +11,7 @@ open-type="getUserInfo"
 bindgetuserinfo="handerGetUserinf"
 >获取授权</button>
 
-<text selectable>hello world\n</text>
+<text selectablevb class="super">hello world\n</text>
 <text space="ensp">hello world\n</text>
 <text space="emsp">hello world\n</text>
 <text space="nbsp">hello world\n</text>

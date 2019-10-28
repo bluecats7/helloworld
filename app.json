@@ -5,7 +5,8 @@
     "pages/button/button",
     "pages/view/view",
     "pages/input/input",
-    "pages/scroll-view/scroll"
+    "pages/scroll-view/scroll",
+    "pages/event/event"
   ],
   "sitemapLocation": "sitemap97.json",
   "window": {

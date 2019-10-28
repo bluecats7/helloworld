@@ -1,0 +1,16 @@
+/* pages/event/event.wxss */
+.box {
+  background-color: orange;
+  height: 300rpx;
+  width: 450rpx;
+}
+.outer{
+  background-color: red;
+  height: 300rpx;
+  width: 450rpx;
+}
+.inner{
+   background-color:green;
+  height: 200rpx;
+  width: 350rpx;
+}

@@ -16,3 +16,18 @@
 <view>{{num}}</view>
 </block>
 </block>
+
+<!-- <template name="contentItem">
+<button size="mini">{{btnText}}</button>
+<view>{{content}}</view>  
+</template> 
+关于wxml导入的两种方式：
+import导入：
+1.主要是导入template
+2.特点：不能进行递归导入
+include引入
+1。将公共的wxml中的组件抽取到一个文件中
+2. 特点：不能导入template/wxs，可以进行递归导入
+-->
+<import src="../../wxml/template.wxml"/>
+<template is="contentItem" data="{{btnText:'按钮',content:'文本'}}"/>

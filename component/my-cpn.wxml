@@ -1,0 +1,5 @@
+<!--compoent/my-cpn.wxml-->
+<view class="box">
+<text class="title">{{title}}</text>
+<view>这是一个组件</view>  
+</view>

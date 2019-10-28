@@ -1,0 +1,12 @@
+<!--pages/event/event.wxml-->
+<view class="box" 
+bind:tap="handletap"
+bind:touchend="handleTouchEnd"
+bind:touchstart="handleTouchStart"
+bind:longpress="handleLongPress"
+bind:touchmove="handleTouchMove"
+></view>
+<!-- 对于outer来说，事件冒泡，产生的是inner，触发的是 outer -->
+<view class="outer" id="outer" bindtap="handleOuter">
+<view class="inner" bindtap="handleInner" id="inner"></view>  
+</view>
