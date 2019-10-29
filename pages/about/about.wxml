@@ -5,14 +5,16 @@
 <view wx:for="{{student}}" wx:key="{{index}}">{{item.name}}---{{item.age}}</view>
 <view>{{counter}}</view>
 <button bindtap="onClickHander" size="mini">+</button>
-<button 
-size="mini"
-open-type="getUserInfo"
-bindgetuserinfo="handerGetUserinf"
->获取授权</button>
-
+<button size="mini" open-type="getUserInfo" bindgetuserinfo="handerGetUserinf">获取授权</button>
 <text selectablevb class="super">hello world\n</text>
 <text space="ensp">hello world\n</text>
 <text space="emsp">hello world\n</text>
 <text space="nbsp">hello world\n</text>
 <text decode>6 &gt; 4</text>
+<tab-bar title="{{['精选','流行','热火']}}" />
+<counter id="counter" />
+<button size='mini' class="btn" bindtap="changeComponent">按一下修改组件数据</button>
+<my-slot>
+<view slot="s1">我是第一个slot</view>
+<view slot="s2">我是中间的slot</view>
+</my-slot>

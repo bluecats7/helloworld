@@ -1,0 +1,16 @@
+/* component/w-tabbar/w-tabbar.wxss */
+.head-tab{
+background: white;
+display: flex;
+justify-content: space-around;
+height: 35px;
+}
+
+.head-tab .body-tab{
+line-height: 35px;
+}
+.active text{
+  color: red;
+  border-bottom: 6rpx solid pink;
+  padding-bottom:8rpx; 
+}

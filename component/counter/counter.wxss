@@ -1,0 +1,9 @@
+/* component/counter/counter.wxss */
+.counter {
+height: 100px;
+width: 150px;
+border: 1px solid black;
+}
+.counter .btn {
+  margin: 40px 5px;
+}

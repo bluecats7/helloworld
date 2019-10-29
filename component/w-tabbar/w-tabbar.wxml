@@ -1,0 +1,12 @@
+<!--component/w-tabbar/w-tabbar.wxml-->
+<view class="head-tab">
+<block wx:for="{{title}}" wx:key="{{index}}">
+<view bindtap="handleClick"
+ class="body-tab {{index === currentIndex ? 'active' :''}}"
+ data-index="{{index}}">
+<text>{{item}}</text>
+ </view>
+ <!-- data-index绑定到改组件event.currentTarget.dataset.index -->
+</block>
+</view>
+

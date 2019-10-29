@@ -1,0 +1,4 @@
+<!--component/counter/counter.wxml-->
+<view class="counter">
+<text>这是显示增加的值:{{counter}}</text>
+</view>

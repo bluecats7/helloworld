@@ -1,0 +1,6 @@
+<!--component/my-msolt/my-slot.wxml-->
+<view>
+  <slot name="s1" />
+  <slot name="s2" />
+  <slot name="s3" />
+</view>

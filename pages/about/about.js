@@ -75,5 +75,14 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  changeComponent(){
+    // selectComponent可以选着组件，
+   
+    const cpn=this.selectComponent("#counter")
+    //  cpn.setData({
+    //    counter: cpn.data.counter+1
+    //  })
+    cpn.changeNum(1);
   }
 })
